@@ -1,0 +1,5 @@
+[
+  { "slug": "fullstack", "name": "全栈", "count": 5 },
+  { "slug": "videoclip", "name": "视频剪辑", "count": 5 },
+  { "slug": "ai", "name": "AI", "count": 5 }
+]

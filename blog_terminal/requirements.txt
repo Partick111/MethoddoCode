@@ -1,0 +1,24 @@
+# 博客后端依赖（Python 3.13 / Django 6）
+Django>=6.0
+djangorestframework>=3.18
+djangorestframework-simplejwt>=5.5
+django-cors-headers>=4.9
+# MySQL 驱动（Django mysql backend 默认使用 MySQLdb）
+mysqlclient>=2.2
+# 环境变量读取（settings.py 中 env()，支持根目录 .env）
+django-environ>=0.14
+# ===== AI / RAG（LangChain + LangGraph + Milvus 向量库）=====
+langchain>=1.4
+langgraph>=1.2
+langchain-openai>=1.6
+langchain-text-splitters>=1.1
+# Milvus 向量库客户端（MilvusClient 风格 API，要求 3.x）
+pymilvus>=3.0
+# BM25 关键词检索 + 中文分词（混合检索）
+rank_bm25>=0.2
+jieba>=0.42
+# 联网搜索（Bing 网页解析）与 HTML 解析
+lxml>=6.0
+# ===== 实时流式（AI 助手 WebSocket：Django Channels + daphne ASGI）=====
+channels>=4.3
+daphne>=4.2

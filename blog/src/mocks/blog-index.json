@@ -1,0 +1,116 @@
+{
+  "config": {
+    "title": "Patrick's Blog",
+    "generate_feed": true
+  },
+  "list": [
+    {
+      "slug": "welcome-to-vue3-blog",
+      "title": "欢迎来到 Vue3 版博客",
+      "date": "2026-09-01",
+      "summary": "从 Next.js 蓝本重写为 Vue3 工程的自述：技术栈、目录结构、mock 数据与后续 Django 对接计划。",
+      "cover": "/images/art/1c7b726fe720679b.jpg",
+      "categories": ["fullstack"]
+    },
+    {
+      "slug": "vue3-composition-api",
+      "title": "Vue3 组合式 API 重构笔记",
+      "date": "2026-08-28",
+      "summary": "把 Options API 页面逐步迁移到 setup 语法糖：状态、计算属性与生命周期钩子的对照写法。",
+      "categories": ["fullstack"]
+    },
+    {
+      "slug": "hello-world",
+      "title": "Hello World 与工程起步",
+      "date": "2026-08-20",
+      "summary": "Vite + Vue3 + TS + Tailwind v4 工程搭建记录，环境变量与内容双源切换说明。",
+      "cover": "/images/art/cat.png",
+      "categories": ["fullstack"]
+    },
+    {
+      "slug": "frontend-style-guide",
+      "title": "前端样式与玻璃拟态设计笔记",
+      "date": "2026-07-15",
+      "summary": "CSS 变量、卡片、圆角、高斯模糊泡泡背景与动效实践，含代码高亮与 KaTeX 示例。",
+      "cover": "/images/art/a46372ff45bc5524.jpg",
+      "categories": ["fullstack"]
+    },
+    {
+      "slug": "tailwind-v4-migration",
+      "title": "Tailwind v4 迁移与主题变量",
+      "date": "2026-06-28",
+      "summary": "从 v3 迁到 v4 的改造点：@theme 变量、@utility 自定义工具类与 PostCSS 插件配置。",
+      "categories": ["fullstack"]
+    },
+    {
+      "slug": "capcut-audio-sync",
+      "title": "剪映音频踩点与卡点",
+      "date": "2026-08-12",
+      "summary": "用自动踩点对齐音乐节拍，再手动微调关键帧，让转场恰好卡在鼓点上。",
+      "categories": ["videoclip"]
+    },
+    {
+      "slug": "video-cut-101",
+      "title": "剪映快速剪辑入门",
+      "date": "2026-08-05",
+      "summary": "用剪映完成短视频拆条与快速剪辑的基础操作：切断、抠除无用片段、自动踩点卡节奏。",
+      "categories": ["videoclip"]
+    },
+    {
+      "slug": "premiere-color-grading",
+      "title": "Premiere 调色与氛围感",
+      "date": "2026-07-01",
+      "summary": "Lumetri 调色三步流程：校白平衡、还原肤色、整体风格化，配合胶片噪点统一氛围。",
+      "categories": ["videoclip"]
+    },
+    {
+      "slug": "davinci-basics",
+      "title": "达芬奇基础调色流程",
+      "date": "2026-06-02",
+      "summary": "素材整理、一级校色到二级调色的入门路径，含节点式工作流的操作顺序说明。",
+      "categories": ["videoclip"]
+    },
+    {
+      "slug": "short-video-script",
+      "title": "短视频脚本与分镜拆解",
+      "date": "2026-05-08",
+      "summary": "三秒抓眼球的开头写法、口播节奏控制与分镜表模板的整理。",
+      "categories": ["videoclip"]
+    },
+    {
+      "slug": "rag-notes",
+      "title": "RAG 检索增强入门笔记",
+      "date": "2026-07-22",
+      "summary": "文档切分、向量检索与提示词拼装的完整链路，以及召回效果不理想的排查思路。",
+      "categories": ["ai"]
+    },
+    {
+      "slug": "ai-prompt-writing",
+      "title": "AI 写作与提示词实践",
+      "date": "2026-06-15",
+      "summary": "日常用 AI 辅助写作的提示词模板与避坑经验，明确角色、格式与分段生成策略。",
+      "categories": ["ai"]
+    },
+    {
+      "slug": "ai-agent-workflow",
+      "title": "AI Agent 工作流实践",
+      "date": "2026-06-08",
+      "summary": "把工具调用、上下文记忆与任务拆解串成可复用的自动化流程。",
+      "categories": ["ai"]
+    },
+    {
+      "slug": "llm-api-integration",
+      "title": "大模型 API 接入笔记",
+      "date": "2026-05-20",
+      "summary": "在博客工程中接入大模型 API（对话、流式输出）的调研记录，密钥一律走服务端。",
+      "categories": ["ai"]
+    },
+    {
+      "slug": "local-llm-deploy",
+      "title": "本地部署开源大模型记录",
+      "date": "2026-05-02",
+      "summary": "显卡环境准备、量化模型选型与本地推理服务的启动参数记录。",
+      "categories": ["ai"]
+    }
+  ]
+}

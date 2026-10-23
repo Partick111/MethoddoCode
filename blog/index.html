@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- favicon：使用 public/images/logo.png -->
+    <link rel="icon" type="image/png" sizes="any" href="/images/logo.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Patrick - blog</title>
+    <meta name="description" content="Patrick 的个人博客，记录、探索与学习。" />
+    <link rel="preconnect" href="https://fonts.googleapis.cn" />
+    <link rel="preconnect" href="https://fonts.gstatic.cn" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.cn/css2?family=Averia+Gruesa+Libre&display=swap" rel="stylesheet" />
+    <script>
+      // 首屏主题预设：在样式/应用脚本执行前恢复夜间模式，避免刷新时先渲染白天再切换（key 与 stores/theme.ts 一致）
+      try {
+        if (localStorage.getItem('yysuni_night_mode') === '1') document.documentElement.classList.add('night')
+      } catch (e) {
+        /* localStorage 不可用时使用默认白天主题 */
+      }
+    </script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

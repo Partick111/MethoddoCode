@@ -1,0 +1,19 @@
+{
+  "title": "关于我",
+  "list": [
+    {
+      "title": "我是谁",
+      "list": [
+        "前端工程师，热爱学习新技术，注重用户体验与设计细节。",
+        "博客记录日常开发中的探索、踩坑与学习笔记。"
+      ]
+    },
+    {
+      "title": "这个博客",
+      "list": [
+        "Vue3 + Vite + TypeScript + Tailwind CSS v4 构建。",
+        "当前使用本地 mock 数据，后续将对接 Django REST API 与 TinyMCE 编辑器。"
+      ]
+    }
+  ]
+}

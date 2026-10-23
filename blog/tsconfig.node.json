@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "skipLibCheck": true,
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "allowSyntheticDefaultImports": true,
+    "types": ["node"],
+    // vue-tsc -b 的编译产物不得落在项目根目录（vite.config.js / vite.config.d.ts），
+    // 否则会被 vite 优先加载（.js 先于 .ts），遮蔽对 vite.config.ts 的修改；outDir 指向临时目录
+    "outDir": "./node_modules/.tmp"
+  },
+  "include": ["vite.config.ts"]
+}
